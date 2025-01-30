@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "dataflowjoinoutput",
 				"folderPath": "target/dataflow",
 				"fileSystem": "gen2container"
 			},
