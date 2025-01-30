@@ -68,7 +68,7 @@
 				"join1 filter(equals(dep, 'HR')) ~> filter1",
 				"filter1 sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
-				"     partitionFileNames:[''],",
+				"     partitionFileNames:['dataflowjoinoutput'],",
 				"     umask: 0022,",
 				"     preCommands: [],",
 				"     postCommands: [],",
